@@ -21,7 +21,7 @@ Future Connecttodevice ()async{
 
      
        
-        // print('Start listen the valueeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.....');
+        
 
         connection!.input!.listen(_onDataReceived).onDone(() {});
      
